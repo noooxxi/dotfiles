@@ -31,8 +31,8 @@
 #### System
 + <kbd>Super + Up</kbd> - Increase brightness
 + <kbd>Super + Down</kbd> - Decrease brightness
-+ <kbd>Super + Left</kbd> - Increase volume
-+ <kbd>Super + Right</kbd> - Decrease volume
++ <kbd>Super + Right</kbd> - Increase volume
++ <kbd>Super + Left</kbd> - Decrease volume
 
 #### Music
 + <kbd>Super + P</kbd> - Pause/resume music
@@ -44,10 +44,10 @@
 #### Windows
 + <kbd>Super + Q</kbd> - Close selected window
 + <kbd>Super + Space</kbd> - Make selected window master window
-+ <kbd>Super + H</kbd> - Decrease master size
-+ <kbd>Super + L</kbd> - Increase master size
 + <kbd>Super + O</kbd> - Increase number of master windows
 + <kbd>Super + Shift + O</kbd> - Decrease number of master windows
++ <kbd>Super + H</kbd> - Decrease master size
++ <kbd>Super + L</kbd> - Increase master size
 + <kbd>Super + Shift + 1</kbd> - Send selected window to tag 1
 + <kbd>Super + Shift + 2</kbd> - Send selected window to tag 2
 + <kbd>Super + Shift + 3</kbd> - Send selected window to tag 3
