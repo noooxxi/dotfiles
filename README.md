@@ -2,8 +2,8 @@
   <b>noxxi's dotfiles</b>
 </p>
 
++ **OS**: [Arch Linux](https://www.archlinux.org/about/)
 + **WM**: [dwm](https://suckless.org/dwm)
-+ **OS**: Arch Linux
 + **Shell**: [zsh](https://wiki.archlinux.org/index.php/Zsh)
 + **Terminal**: [kitty](https://github.com/kovidgoyal/kitty/)
 + **Editor**: [vim](https://vim.org/)
