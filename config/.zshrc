@@ -1,17 +1,45 @@
-# Lines configured by zsh-newuser-install
+# History configuration
 HISTFILE=~/.histfile
 HISTSIZE=10000
 SAVEHIST=10000
-bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/isak/.zshrc'
+export SAVEHIST=$HISTSIZE
+setopt hist_ignore_all_dups
 
-autoload -Uz compinit promptinit
+# Binds
+bindkey -v
+
+# Compinstall
+zstyle :compinstall filename '$HOME/.zshrc'
+
+# Advanced tab-completion
+autoload -Uz compinit
 compinit
+zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
+zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
+
+# Command correction
+setopt correctall
+
+# Prompt
+autoload -Uz promptinit
 promptinit
-# End of lines added by compinstall
 PROMPT='%(?.%F{magenta}√.%F{blue}?%?)%f %B%F{240}%1~%f%b %# '
+
+# Loads aliases
 source $HOME/.aliases
-(cat ~/.cache/wal/sequences &)
+
+# Adds directories to $PATH
+export PATH=$PATH:~/bin
+export PATH="$PATH:$(du "$HOME/.local/bin" | cut -f2 | paste -sd ':')"
+
+# Ssh unknown terminal fix
 export TERM=xterm
+
+# Default programs
+export EDITOR="vim"
+export TERMINAL="kitty"
+export BROWSER="firefox"
+export READER="zathura"
+
+# Change directory without cd
+setopt autocd
