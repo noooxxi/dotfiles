@@ -1,58 +1,28 @@
 #!/bin/sh
 
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
-sysresources=/etc/X11/xinit/.Xresources
-sysmodmap=/etc/X11/xinit/.Xmodmap
+# Sets keyboard layout to Swedish
+setxkbmap -layout se
 
-# merge in defaults and keymaps
+# Starts the compositor daemon. Commented out due to power consumption
+# picom -b --experimental-backends
 
-if [ -f $sysresources ]; then
+# Starts the torrent daemon
+# transmission-daemon
 
+# Starts power managment utility
+# sudo powertop --auto-tune
 
-
-
-
-
-
-    xrdb -merge $sysresources
-
-fi
-
-if [ -f $sysmodmap ]; then
-    xmodmap $sysmodmap
-fi
-
-if [ -f "$userresources" ]; then
-
-
-
-
-
-
-
-    xrdb -merge "$userresources"
-
-fi
-
-if [ -f "$usermodmap" ]; then
-    xmodmap "$usermodmap"
-fi
-
-# start some nice programs
-
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
-
-setxkbmap -layout se &
-#feh --bg-scale /usr/share/wallpapers/buddha.png
-#picom -b --experimental-backends
-#xrdb -merge ~/.cache/wal/sequences
+# Sets wallpaper and defines colorscheme
 wal -i "/usr/share/wallpapers/buddha.png" --saturate 0.8
+
+# Starts the music player dameon
 mpd
+
+# Starts the status bar
+# ~/.config/polybar/launch.sh
+
+# Defines the primary display's refresh rate
 xrandr --output eDP1 --rate 60
+
+# Starts the window manager
 exec dwm
