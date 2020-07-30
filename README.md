@@ -77,5 +77,7 @@
 ## Tips
 
 BTC: 31kKisow1DfWy2VkYSVYnBEkXNjgZacGKE
+
 LTC: MCj8a6kCGSFmrcemjtF9PWsR4hFt81o9Cg
+
 DGB: DRcaykvRzCksfv3TqWLsLJ5z8Xuf7FwD6c
