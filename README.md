@@ -2,6 +2,8 @@
   <b>noxxi's dotfiles</b>
 </p>
 
+<img src="https://i.imgur.com/FXnnfHT.png">
+
 + **OS**: [Arch Linux](https://www.archlinux.org/about/)
 + **WM**: [dwm](https://suckless.org/dwm)
 + **Shell**: [zsh](https://wiki.archlinux.org/index.php/Zsh)
