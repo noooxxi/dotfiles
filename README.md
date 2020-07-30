@@ -8,14 +8,14 @@
 + **Terminal**: [kitty](https://github.com/kovidgoyal/kitty/)
 + **Editor**: [vim](https://vim.org/)
 + **File Manager**: [ranger](https://github.com/ranger/ranger)
-+ **Launcher**: [dmenu](https://tools.suckless.org/dmenu/)
++ **Launcher**: [Rofi](https://github.com/davatorium/rofi)
 + **Browser**: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Setup
 
 1. Install dwm
 
-2. Configure all applications and set everything up
+2. Configure all the things
 
 
 ## Keybinds
@@ -33,6 +33,7 @@
 + <kbd>Super + Down</kbd> - Decrease brightness
 + <kbd>Super + Right</kbd> - Increase volume
 + <kbd>Super + Left</kbd> - Decrease volume
++ <kbd>Super + B</kbd> - Toggle bar
 
 #### Music
 + <kbd>Super + P</kbd> - Pause/resume music
