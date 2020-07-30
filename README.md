@@ -6,7 +6,7 @@
 <a href="#setup"><img width="150px" style="padding: 0 10px;" src=".assets/setup.png"></a>
 <a href="https://github.com/noooxxi/dotfiles/wiki"><img width="150px" style="padding: 0 10px;" src=".assets/wiki.png"></a>
 <a href="https://github.com/noooxxi/dotfiles/wiki/Gallery"><img width="150px" style="padding: 0 10px;" src=".assets/gallery.png"></a>
-<a href="#tipjar"><img width="150px" style="padding: 0 10px;" src=".assets/tipjar.png"></a>
+<a href="#tips"><img width="150px" style="padding: 0 10px;" src=".assets/tipjar.png"></a>
 </p>
 
 <img src="https://i.imgur.com/FXnnfHT.png">
@@ -73,3 +73,9 @@
 + <kbd>Super + Shift + I</kbd> - Centered floating master layout
 + <kbd>Super + (1-9)</kbd> - Show tag (1-9)
 + <kbd>Super + 0</kbd> - Show all tags
+
+## Tips
+
+BTC: 31kKisow1DfWy2VkYSVYnBEkXNjgZacGKE
+LTC: MCj8a6kCGSFmrcemjtF9PWsR4hFt81o9Cg
+DGB: DRcaykvRzCksfv3TqWLsLJ5z8Xuf7FwD6c
