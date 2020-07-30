@@ -1,0 +1,14 @@
+map <C-i> recolor
+set default-bg "#050e15"
+set default-fg "#a5c7c3"
+set inputbar-bg "#050e15"
+set inputbar-fg "#a5c7c3"
+set completion-bg "#050e15"
+set completion-fg "#a5c7c3"
+set statusbar-bg "#050e15"
+set statusbar-fg "#a5c7c3"
+set recolor-lightcolor "#050e15"
+set recolor-darkcolor "#a5c7c3"
+set highlight-color "#c5e72f"
+set highlight-active-color "#e018ad"
+set recolor
