@@ -58,6 +58,7 @@
 + <kbd>Super + Shift + O</kbd> - Decrease number of master windows
 + <kbd>Super + H</kbd> - Decrease master size
 + <kbd>Super + L</kbd> - Increase master size
++ <kbd>Super + S</kbd> - Toggle stickiness
 + <kbd>Super + Shift + (1-9)</kbd> - Send selected window to tag (1-9)
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
