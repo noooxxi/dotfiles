@@ -2,6 +2,13 @@
   <b>noxxi's dotfiles</b>
 </p>
 
+<p align="center">
+<a href="#setup"><img width="150px" style="padding: 0 10px;" src=".assets/setup.png"></a>
+<a href="https://github.com/noooxxi/dotfiles/wiki"><img width="150px" style="padding: 0 10px;" src=".assets/wiki.png"></a>
+<a href="https://github.com/noooxxi/dotfiles/wiki/Gallery"><img width="150px" style="padding: 0 10px;" src=".assets/gallery.png"></a>
+<a href="#tipjar"><img width="150px" style="padding: 0 10px;" src=".assets/tipjar.png"></a>
+</p>
+
 <img src="https://i.imgur.com/FXnnfHT.png">
 
 + **OS**: [Arch Linux](https://www.archlinux.org/about/)
