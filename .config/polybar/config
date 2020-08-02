@@ -80,22 +80,6 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 label = %title:0:30:...%
 
-;[module/xkeyboard]
-;type = internal/xkeyboard
-;blacklist-0 = num lock
-;
-;format-prefix = " "
-;format-prefix-foreground = ${xrdb:color15}
-;format-prefix-underline = ${colors.secondary}
-;
-;label-layout = %layout%
-;label-layout-underline = ${colors.secondary}
-;
-;label-indicator-padding = 2
-;label-indicator-margin = 1
-;label-indicator-background = ${colors.secondary}
-;label-indicator-underline = ${colors.secondary}
-
 [module/filesystem]
 type = internal/fs
 interval = 25
@@ -197,7 +181,7 @@ format-disconnected =
 
 [module/tags]
 type = custom/ipc
-hook-0 = X=$(sum="$(( 512 + $(dwm-msg get_monitors | grep occupied | sed "s/\"occupied\":\ //g;s/[[:blank:]]//g;s/,//g") ))"; echo "obase=2;$sum" | bc); tag=$(dwm-msg get_monitors | grep -A 1 "tagset" | grep "current" | sed "s/\"current\"://g;s/,//g;s/[[:blank:]]//g"); result=$(if [ $tag -eq 1 ]; then echo [1]; elif [ "$(A=$(echo $X | awk '{ print substr( $0, length($0) - 0, length($0) ) }'); echo "${A:0:1}")" -eq "1" ]; then echo "1"; fi; if [ $tag -eq 2 ]; then echo [2]; elif [ "$(B=$(echo $X | awk '{ print substr( $0, length($0) - 1, length($0) ) }'); echo "${B:0:1}")" -eq "1" ]; then echo "2"; fi; if [ $tag -eq 4 ]; then echo [3]; elif [ "$(C=$(echo $X | awk '{ print substr( $0, length($0) - 2, length($0) ) }'); echo "${C:0:1}")" -eq "1" ]; then echo "3"; fi; if [ $tag -eq 8 ]; then echo [4]; elif [ "$(D=$(echo $X | awk '{ print substr( $0, length($0) - 3, length($0) ) }'); echo "${D:0:1}")" -eq "1" ]; then echo "4"; fi; if [ $tag -eq 16 ]; then echo [5]; elif [ "$(E=$(echo $X | awk '{ print substr( $0, length($0) - 4, length($0) ) }'); echo "${E:0:1}")" -eq "1" ]; then echo "5"; fi; if [ $tag -eq 32 ]; then echo [6]; elif [ "$(F=$(echo $X | awk '{ print substr( $0, length($0) - 5, length($0) ) }'); echo "${F:0:1}")" -eq "1" ]; then echo "6"; fi; if [ $tag -eq 64 ]; then echo [7]; elif [ "$(G=$(echo $X | awk '{ print substr( $0, length($0) - 6, length($0) ) }'); echo "${G:0:1}")" -eq "1" ]; then echo "7"; fi; if [ $tag -eq 128 ]; then echo [8]; elif [ "$(H=$(echo $X | awk '{ print substr( $0, length($0) - 7, length($0) ) }'); echo "${H:0:1}")" -eq "1" ]; then echo "8"; fi; if [ $tag -eq 256 ]; then echo [9]; elif [ "$(I=$(echo $X | awk '{ print substr( $0, length($0) - 8, length($0) ) }'); echo "${I:0:1}")" -eq "1" ]; then echo "9"; fi;); echo $result;
+hook-0 = X=$(echo "obase=2;$(( 512 + "$(dwm-msg get_monitors | sed "25!d;s/[^1-9]*//g")" ))" | bc""); tag=$(dwm-msg get_monitors | sed "20!d;s/[^1-9]*//g"); echo $(if [ "$tag" -eq "1" ]; then echo "[1]"; elif [ $(echo "${X:9:1}") -eq "1" ]; then echo "1"; fi; if [ "$tag" -eq "2" ]; then echo "[2]"; elif [ $(echo "${X:8:1}") -eq "1" ]; then echo "2"; fi; if [ "$tag" -eq "4" ]; then echo "[3]"; elif [ $(echo "${X:7:1}") -eq "1" ]; then echo "3"; fi; if [ "$tag" -eq "8" ]; then echo "[4]"; elif [ $(echo "${X:6:1}") -eq "1" ]; then echo "4"; fi; if [ "$tag" -eq "16" ]; then echo "[5]"; elif [ $(echo "${X:5:1}") -eq "1" ]; then echo "5"; fi; if [ "$tag" -eq "32" ]; then echo "[6]"; elif [ $(echo "${X:4:1}") -eq "1" ]; then echo "6"; fi; if [ "$tag" -eq "64" ]; then echo "[7]"; elif [ $(echo "${X:3:1}") -eq "1" ]; then echo "7"; fi; if [ "$tag" -eq "128" ]; then echo "[8]"; elif [ $(echo "${X:2:1}") -eq "1" ]; then echo "8"; fi; if [ "$tag" -eq "256" ]; then echo "[9]"; elif [ $(echo "${X:1:1}") -eq "1" ]; then echo "9"; fi;)
 initial = 1
 label = %output%
 format-foreground = ${colors.foreground}
