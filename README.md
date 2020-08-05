@@ -58,7 +58,11 @@
 + <kbd>Super + O</kbd> - Increase number of master windows
 + <kbd>Super + Shift + O</kbd> - Decrease number of master windows
 + <kbd>Super + H</kbd> - Decrease master size
++ <kbd>Super + J</kbd> - Previous window
++ <kbd>Super + K</kbd> - Next window
 + <kbd>Super + L</kbd> - Increase master size
++ <kbd>Super + Shift + J</kbd> - Demote window
++ <kbd>Super + Shift + K</kbd> - Promote window
 + <kbd>Super + S</kbd> - Toggle stickiness
 + <kbd>Super + Shift + (1-9)</kbd> - Send selected window to tag (1-9)
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
