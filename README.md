@@ -41,7 +41,7 @@
 + <kbd>Super + ↓</kbd> - Decrease brightness
 + <kbd>Super + +</kbd> - Increase volume
 + <kbd>Super + -</kbd> - Decrease volume
-+ <kbd>Super + B</kbd> - Toggle bar
++ <kbd>Super + b</kbd> - Toggle bar
 + <kbd>Super + L</kbd> - Lock session
 
 #### Music
