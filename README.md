@@ -12,10 +12,10 @@
 <img src="https://i.imgur.com/FXnnfHT.png">
 
 + **OS**: [Arch Linux](https://www.archlinux.org/about/)
-+ **WM**: [dwm](https://suckless.org/dwm)
++ **WM**: [dwm](https://dwm.suckless.org/)
 + **Shell**: [zsh](https://wiki.archlinux.org/index.php/Zsh)
 + **Terminal**: [kitty](https://github.com/kovidgoyal/kitty/)
-+ **Editor**: [vim](https://vim.org/)
++ **Editor**: [vim](https://www.vim.org/)
 + **File Manager**: [ranger](https://github.com/ranger/ranger)
 + **Launcher**: [Rofi](https://github.com/davatorium/rofi)
 + **Browser**: [Firefox](https://www.mozilla.org/en-US/firefox/new/)
