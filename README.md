@@ -34,10 +34,13 @@
 + <kbd>Super + e</kbd> - Spawn ranger
 + <kbd>Super + E</kbd> - Spawn neomutt
 + <kbd>Super + r</kbd> - Spawn newsboat
++ <kbd>Super + R</kbd> - Spawn transmission
 + <kbd>Super + m</kbd> - Spawn ncmpcpp
++ <kbd>Super + M</kbd> - Spawn pulsemixer
 + <kbd>Super + d</kbd> - Spawn discord
 + <kbd>Super + g</kbd> - Spawn gotop
 + <kbd>Super + G</kbd> - Spawn htop
++ <kbd>Super + c</kbd> - Spawn weechat
 
 #### System
 + <kbd>Super + ↑</kbd> - Increase brightness
@@ -66,6 +69,7 @@
 + <kbd>Super + J</kbd> - Demote window
 + <kbd>Super + K</kbd> - Promote window
 + <kbd>Super + s</kbd> - Toggle stickiness
++ <kbd>Super + v</kbd> - Select master window
 + <kbd>Super + Space</kbd> - Make selected window master window
 + <kbd>Super + Shift + Space</kbd> - Make selected window floating/stacked
 + <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
@@ -83,6 +87,10 @@
 + <kbd>Super + I</kbd> - Centered floating master layout
 + <kbd>Super + α</kbd> - Show tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
 + <kbd>Super + 0</kbd> - Show all tags
++ <kbd>Super + a</kbd> - Toggle gaps
++ <kbd>Super + A</kbd> - Default gap size
++ <kbd>Super + z</kbd> - Increase gap size
++ <kbd>Super + x</kbd> - Decrease gap size
 
 ## Tips
 
