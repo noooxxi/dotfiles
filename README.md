@@ -42,7 +42,7 @@
 + <kbd>Super + +</kbd> - Increase volume
 + <kbd>Super + -</kbd> - Decrease volume
 + <kbd>Super + B</kbd> - Toggle bar
-+ <kbd>Super + Shift + L</kbd> - Lock session
++ <kbd>Super + L</kbd> - Lock session
 
 #### Music
 + <kbd>Super + p</kbd> - Pause/resume music
