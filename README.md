@@ -30,17 +30,17 @@
 ## Keybinds
 
 #### Applications
-+ <kbd>Super + Enter</kbd> - Spawn terminal
++ <kbd>Super + ↵</kbd> - Spawn terminal
 + <kbd>Super + e</kbd> - Spawn ranger
 + <kbd>Super + r</kbd> - Spawn gotop
 + <kbd>Super + m</kbd> - Spawn ncmpcpp
 + <kbd>Super + d</kbd> - Spawn discord
 
 #### System
-+ <kbd>Super + Up</kbd> - Increase brightness
-+ <kbd>Super + Down</kbd> - Decrease brightness
-+ <kbd>Super + Plus</kbd> - Increase volume
-+ <kbd>Super + Minus</kbd> - Decrease volume
++ <kbd>Super + ↑</kbd> - Increase brightness
++ <kbd>Super + ↓</kbd> - Decrease brightness
++ <kbd>Super + +</kbd> - Increase volume
++ <kbd>Super + -</kbd> - Decrease volume
 + <kbd>Super + B</kbd> - Toggle bar
 + <kbd>Super + Shift + L</kbd> - Lock session
 
@@ -53,7 +53,6 @@
 
 #### Windows
 + <kbd>Super + q</kbd> - Close selected window
-+ <kbd>Super + Space</kbd> - Make selected window master window
 + <kbd>Super + o</kbd> - Increase number of master windows
 + <kbd>Super + O</kbd> - Decrease number of master windows
 + <kbd>Super + h</kbd> - Decrease master size
@@ -63,6 +62,7 @@
 + <kbd>Super + J</kbd> - Demote window
 + <kbd>Super + K</kbd> - Promote window
 + <kbd>Super + S</kbd> - Toggle stickiness
++ <kbd>Super + Space</kbd> - Make selected window master window
 + <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈N and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
