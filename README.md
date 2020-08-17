@@ -49,20 +49,21 @@
 + <kbd>Super + ,</kbd> - Play previous song
 + <kbd>Super + ;</kbd> - Go to start of song
 + <kbd>Super + .</kbd> - Play next song
-+ <kbd>Super + :</kbd> - Repeat song
++ <kbd>Super + :</kbd> - Toggle repeat song
 
 #### Windows
 + <kbd>Super + q</kbd> - Close selected window
 + <kbd>Super + o</kbd> - Increase number of master windows
 + <kbd>Super + O</kbd> - Decrease number of master windows
 + <kbd>Super + h</kbd> - Decrease master size
++ <kbd>Super + l</kbd> - Increase master size
 + <kbd>Super + j</kbd> - Next window
 + <kbd>Super + k</kbd> - Previous window
-+ <kbd>Super + l</kbd> - Increase master size
 + <kbd>Super + J</kbd> - Demote window
 + <kbd>Super + K</kbd> - Promote window
-+ <kbd>Super + S</kbd> - Toggle stickiness
++ <kbd>Super + s</kbd> - Toggle stickiness
 + <kbd>Super + Space</kbd> - Make selected window master window
++ <kbd>Super + Shift + Space</kbd> - Toggle selected window's state
 + <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
