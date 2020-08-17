@@ -31,52 +31,51 @@
 
 #### Applications
 + <kbd>Super + Enter</kbd> - Spawn terminal
-+ <kbd>Super + Shift + Enter </kbd> - Spawn vim notes
-+ <kbd>Super + E</kbd> - Spawn ranger
-+ <kbd>Super + R</kbd> - Spawn gotop
-+ <kbd>Super + M</kbd> - Spawn ncmpcpp
-+ <kbd>Super + D</kbd> - Spawn discord
++ <kbd>Super + e</kbd> - Spawn ranger
++ <kbd>Super + r</kbd> - Spawn gotop
++ <kbd>Super + m</kbd> - Spawn ncmpcpp
++ <kbd>Super + d</kbd> - Spawn discord
 
 #### System
 + <kbd>Super + Up</kbd> - Increase brightness
 + <kbd>Super + Down</kbd> - Decrease brightness
-+ <kbd>Super + Right</kbd> - Increase volume
-+ <kbd>Super + Left</kbd> - Decrease volume
++ <kbd>Super + Plus</kbd> - Increase volume
++ <kbd>Super + Minus</kbd> - Decrease volume
 + <kbd>Super + B</kbd> - Toggle bar
 + <kbd>Super + Shift + L</kbd> - Lock session
 
 #### Music
-+ <kbd>Super + P</kbd> - Pause/resume music
++ <kbd>Super + p</kbd> - Pause/resume music
 + <kbd>Super + Comma</kbd> - Play previous song
-+ <kbd>Super + Shift + Comma</kbd> - Go to start of song
++ <kbd>Super + Semicolon</kbd> - Go to start of song
 + <kbd>Super + Period</kbd> - Play next song
-+ <kbd>Super + Shift + Period</kbd> - Repeat song
++ <kbd>Super + Colon</kbd> - Repeat song
 
 #### Windows
-+ <kbd>Super + Q</kbd> - Close selected window
++ <kbd>Super + q</kbd> - Close selected window
 + <kbd>Super + Space</kbd> - Make selected window master window
-+ <kbd>Super + O</kbd> - Increase number of master windows
-+ <kbd>Super + Shift + O</kbd> - Decrease number of master windows
-+ <kbd>Super + H</kbd> - Decrease master size
-+ <kbd>Super + J</kbd> - Next window
-+ <kbd>Super + K</kbd> - Previous window
-+ <kbd>Super + L</kbd> - Increase master size
-+ <kbd>Super + Shift + J</kbd> - Demote window
-+ <kbd>Super + Shift + K</kbd> - Promote window
++ <kbd>Super + o</kbd> - Increase number of master windows
++ <kbd>Super + O</kbd> - Decrease number of master windows
++ <kbd>Super + h</kbd> - Decrease master size
++ <kbd>Super + j</kbd> - Next window
++ <kbd>Super + k</kbd> - Previous window
++ <kbd>Super + l</kbd> - Increase master size
++ <kbd>Super + J</kbd> - Demote window
++ <kbd>Super + K</kbd> - Promote window
 + <kbd>Super + S</kbd> - Toggle stickiness
-+ <kbd>Super + Shift + (1-9)</kbd> - Send selected window to tag (1-9)
++ <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈N and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
 #### Layout
-+ <kbd>Super + T</kbd> - Tiling layout with master to the left
-+ <kbd>Super + Shift + T</kbd> - Tiling layout with master on top
-+ <kbd>Super + Y</kbd> - Fibonacci layout
-+ <kbd>Super + Shift + Y</kbd> - Dwindle layout
-+ <kbd>Super + U</kbd> - Deck layout
-+ <kbd>Super + Shift + U</kbd> - Monocle layout
-+ <kbd>Super + I</kbd> - Centered master layout
-+ <kbd>Super + Shift + I</kbd> - Centered floating master layout
-+ <kbd>Super + (1-9)</kbd> - Show tag (1-9)
++ <kbd>Super + t</kbd> - Tiling layout with master to the left
++ <kbd>Super + T</kbd> - Tiling layout with master on top
++ <kbd>Super + y</kbd> - Fibonacci layout
++ <kbd>Super + Y</kbd> - Dwindle layout
++ <kbd>Super + u</kbd> - Deck layout
++ <kbd>Super + U</kbd> - Monocle layout
++ <kbd>Super + i</kbd> - Centered master layout
++ <kbd>Super + I</kbd> - Centered floating master layout
++ <kbd>Super + α</kbd> - Show tag α where α∈N and 9≥α≥1 
 + <kbd>Super + 0</kbd> - Show all tags
 
 ## Tips
