@@ -32,9 +32,12 @@
 #### Applications
 + <kbd>Super + ↵</kbd> - Spawn terminal
 + <kbd>Super + e</kbd> - Spawn ranger
-+ <kbd>Super + r</kbd> - Spawn gotop
++ <kbd>Super + E</kbd> - Spawn neomutt
++ <kbd>Super + r</kbd> - Spawn newsboat
 + <kbd>Super + m</kbd> - Spawn ncmpcpp
 + <kbd>Super + d</kbd> - Spawn discord
++ <kbd>Super + g</kbd> - Spawn gotop
++ <kbd>Super + G</kbd> - Spawn htop
 
 #### System
 + <kbd>Super + ↑</kbd> - Increase brightness
@@ -53,6 +56,7 @@
 
 #### Windows
 + <kbd>Super + q</kbd> - Close selected window
++ <kbd>Super + f</kbd> - Toggle fullscreen
 + <kbd>Super + o</kbd> - Increase number of master windows
 + <kbd>Super + O</kbd> - Decrease number of master windows
 + <kbd>Super + h</kbd> - Decrease master size
@@ -63,11 +67,12 @@
 + <kbd>Super + K</kbd> - Promote window
 + <kbd>Super + s</kbd> - Toggle stickiness
 + <kbd>Super + Space</kbd> - Make selected window master window
-+ <kbd>Super + Shift + Space</kbd> - Toggle selected window's state
++ <kbd>Super + Shift + Space</kbd> - Make selected window floating/stacked
 + <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
 #### Layout
++ <kbd>Super + F</kbd> - Floating layout
 + <kbd>Super + t</kbd> - Tiling layout with master to the left
 + <kbd>Super + T</kbd> - Tiling layout with master on top
 + <kbd>Super + y</kbd> - Fibonacci layout
