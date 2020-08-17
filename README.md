@@ -46,10 +46,10 @@
 
 #### Music
 + <kbd>Super + p</kbd> - Pause/resume music
-+ <kbd>Super + Comma</kbd> - Play previous song
-+ <kbd>Super + Semicolon</kbd> - Go to start of song
-+ <kbd>Super + Period</kbd> - Play next song
-+ <kbd>Super + Colon</kbd> - Repeat song
++ <kbd>Super + ,</kbd> - Play previous song
++ <kbd>Super + ;</kbd> - Go to start of song
++ <kbd>Super + .</kbd> - Play next song
++ <kbd>Super + :</kbd> - Repeat song
 
 #### Windows
 + <kbd>Super + q</kbd> - Close selected window
