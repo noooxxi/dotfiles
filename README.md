@@ -63,7 +63,7 @@
 + <kbd>Super + K</kbd> - Promote window
 + <kbd>Super + S</kbd> - Toggle stickiness
 + <kbd>Super + Space</kbd> - Make selected window master window
-+ <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈N and 9≥α≥1 
++ <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
 #### Layout
