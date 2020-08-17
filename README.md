@@ -23,9 +23,17 @@
 ## Setup
 
 1. Install dwm
+   ```shell
+   git clone https://github.com/noooxxi/dotfiles
+   cd dotfiles
+   mkdir ~/.config/dwm && mv .config/dwm/* ~/.config/dwm
+   cd ~/.config/dwm && sudo make clean install
+   ```
 
-2. Configure all the things
-
+2. Install applications
+```shell
+yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
+```
 
 ## Keybinds
 
