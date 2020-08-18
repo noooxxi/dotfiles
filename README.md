@@ -58,8 +58,18 @@ chsh -s /bin/zsh
 If you don't have a GPG key pair, run ``gpg --full-gen-key`` first. Otherwise, continue as instructed below:
 ```shell
 pass init <yourgpgemail>
-mw
+mw add
 ```
+Complete the mutt-wizard setup.
+
+5. Configure vim
+```shell
+sudo pacman -S gvim
+mv -vi .vimrc ~/.vimrc
+mkdir -p ~/.vim/autoload ~/.vim/bundle
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+Install plugins.
 
 ## Keybinds
 
