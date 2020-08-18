@@ -15,7 +15,10 @@ shell="$(basename "$SHELL")"
 
 ## UI DETECTION
 
-if [ -n "${DE}" ]; then
+if [ ! -z "$(pidof dwm)" ]; then
+	ui="dwm"
+	uitype='WM'
+elif [ -n "${DE}" ]; then
 	ui="${DE}"
 	uitype='DE'
 elif [ -n "${WM}" ]; then
