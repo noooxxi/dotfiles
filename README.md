@@ -31,45 +31,45 @@
    ```
 
 2. Install applications
-```shell
-yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
-cd dotfiles
-mv -vi .config/* ~/.config/
-```
-Populate the urls file and run newsboat once pointing to the configuration file. This is necessary since newsboat uses ~/.newsboat by default and thus won't load our settings.
-```shell
-echo "https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" >> ~/.config/newsboat/urls
-newsboat -C ~/.config/newsboat/config
-```
+    ```shell
+     yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
+    cd dotfiles
+    mv -vi .config/* ~/.config/
+    ```
+    Populate the urls file and run newsboat once pointing to the configuration file. This is necessary since newsboat uses ~/.newsboat by   default and thus won't load our settings.
+    ```shell
+    echo "https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" >> ~/.config/newsboat/urls
+    newsboat -C ~/.config/newsboat/config
+    ```
 
 3. Install zsh
-```shell
-sudo pacman -S zsh zsh-completions
-zsh
-```
-Press q to exit out of <i>zsh-newuser-install</i>.
-```shell
-mv -vi .zshrc ~/.zshrc && mv -vi .aliases ~/.aliases
-chsh -s /bin/zsh
-```
+    ```shell
+    sudo pacman -S zsh zsh-completions
+    zsh
+    ```
+    Press q to exit out of <i>zsh-newuser-install</i>.
+    ```shell
+    mv -vi .zshrc ~/.zshrc && mv -vi .aliases ~/.aliases
+    chsh -s /bin/zsh
+    ```
 
 4. Configure neomutt
 
-If you don't have a GPG key pair, run ``gpg --full-gen-key`` first. Otherwise, continue as instructed below:
-```shell
-pass init <yourgpgemail>
-mw add
-```
-Complete the mutt-wizard setup.
+    If you don't have a GPG key pair, run ``gpg --full-gen-key`` first. Otherwise, continue as instructed below:
+    ```shell
+    pass init <yourgpgemail>
+    mw add
+    ```
+    Complete the mutt-wizard setup.
 
 5. Configure vim
-```shell
-sudo pacman -S gvim
-mv -vi .vimrc ~/.vimrc
-mkdir -p ~/.vim/autoload ~/.vim/bundle
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-```
-Install plugins.
+    ```shell
+    sudo pacman -S gvim
+    mv -vi .vimrc ~/.vimrc
+    mkdir -p ~/.vim/autoload ~/.vim/bundle
+    curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+    ```
+    Install plugins.
 
 ## Keybinds
 
