@@ -12,44 +12,51 @@ alias \
 	vp="sudo vim /etc/pacman.conf" \
 	vr="vim ~/.config/ranger/rc.conf" \
 	vs="sudo EDITOR=vim visudo" \
+	vu="vim ~/.config/newsboat/urls" \
 	vv="vim ~/.vimrc" \
 	vz="vim ~/.zshrc" \
 	vx="vim ~/.xinitrc" \
 
 # Shortcuts
 alias \
-	battery="acpi" \
 	bat="acpi" \
-	tetris="yetris" \
-	matrix="cmatrix" \
-	pipes="pipes.sh" \
-	minecraft="minecraft-launcher" \
+	battery="acpi" \
 	blueman="blueman-manager" \
-	telegram="telegram-desktop" \
-	k="pkill -9" \
-	weather="curl wttr.in" \
-	sx="startx" \
-	reload="cd ~/.config/dwm; sudo make install; cd" \
-	zip="gzip" \
-	shutdown="shutdown -P now" \
-	reboot"reboot -p" \
-	fkill="fuser -km" \
-	ls="ls -hN --color=auto --group-directories-first" \
-	gu="sudo grub-mkconfig -o /boot/grub/grub.cfg" \
-	yeet="yay -Syu --noconfirm" \
-	minesweeper="kmines" \
-	mines="kmines" \
-	tsm="transmission-remote" \
 	cp="cp -vi" \
-	mv="mv -vi" \
-	rm="rm -vI" \
-	grep="grep --color=auto" \
-	scrot="scrot ~/pix/screenshots/$(date --iso-8601=seconds | sed 's/T/_/;s/+.*$/\.png/')" \
-	sinks="pamixer --list-sinks" \
+	crot="scrot ~/pix/screenshots/$(date --iso-8601=seconds | sed 's/T/_/;s/+.*$/\.png/')" \
 	dl="youtube-dl --add-metadata -i" \
-	youtube-dl"youtube-dl --add-metadata -i" \
-	rp="~/.config/polybar/launch.sh" \
+	dotfiles="git clone https://github.com/noooxxi/dotfiles" \
 	du="du -h" \
+	fkill="fuser -km" \
+	grep="grep --color=auto" \
+	gu="sudo grub-mkconfig -o /boot/grub/grub.cfg" \
+	k="pkill -9" \
+	layout="setxkbmap -layout se" \
+	log="journal" \
+	ls="ls -hN --color=auto --group-directories-first" \
+	matrix="cmatrix" \
+	minecraft="minecraft-launcher" \
+	mines="kmines" \
+	minesweeper="kmines" \
+	mv="mv -vi" \
+	notes="sncli" \
+	pipes="pipes.sh" \
+	reboot"reboot -p" \
+	reload="cd ~/.config/dwm; sudo make install; cd" \
+	rm="rm -vI" \
+	rp="~/.config/polybar/launch.sh" \
+	shutdown="shutdown -P now" \
+	sinks="pamixer --list-sinks" \
+	sx="startx" \
+	telegram="telegram-desktop" \
+	tetris="yetris" \
+	tsm="transmission-remote" \
+	weather="curl -s wttr.in" \
+	yeet="yay -Syu --noconfirm" \
+	youtube-dl"youtube-dl --add-metadata -i" \
+	yt="youtube-viewer" \
+	z="zathura" \
+	zip="gzip" \
 
 # Scripts
 alias \
