@@ -32,7 +32,7 @@
 
 2. Install applications
     ```shell
-     yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
+    yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
     cd dotfiles
     mv -vi .config/* ~/.config/
     ```
