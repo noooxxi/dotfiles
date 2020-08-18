@@ -3,17 +3,17 @@
 # Sets keyboard layout to Swedish
 setxkbmap -layout se
 
-# Starts the compositor daemon. Commented out due to power consumption
-# picom -b --experimental-backends
+# Starts the compositor daemon
+picom -b --experimental-backends
 
 # Starts the torrent daemon
-# transmission-daemon
+transmission-daemon
 
 # Starts power managment utility
 # sudo powertop --auto-tune
 
 # Sets wallpaper and defines colorscheme
-wal -i "/usr/share/wallpapers/buddha.png" --saturate 0.8
+wal -i "/usr/share/wallpapers/1920x1080.png" --saturate 0.8
 
 # Starts the music player dameon
 mpd
@@ -21,8 +21,11 @@ mpd
 # Starts the status bar
 ~/.config/polybar/launch.sh
 
-# Defines the primary display's refresh rate
-xrandr --output eDP1 --rate 60
+# Desktop display configuration
+xrandr --output DVI-D-0 --mode 1920x1080 --rate 144 --output DVI-I-1 --right-of DVI-D-0 --mode 1920x1080 --rate 144
+
+# Laptop display configuration
+# xrandr --output eDP1 --rate 60
 
 # Hides the mouse
 unclutter -idle 1 -jitter 2 -root &
@@ -31,4 +34,4 @@ unclutter -idle 1 -jitter 2 -root &
 light-locker &
 
 # Starts the window manager
-exec dwm
+exec ~/.config/dwm/startdwm
