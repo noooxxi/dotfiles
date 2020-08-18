@@ -26,13 +26,31 @@
    ```shell
    git clone https://github.com/noooxxi/dotfiles
    cd dotfiles
-   mkdir ~/.config/dwm && mv .config/dwm/* ~/.config/dwm
+   mkdir ~/.config/dwm && mv -vi .config/dwm/* ~/.config/dwm
    cd ~/.config/dwm && sudo make clean install
    ```
 
 2. Install applications
 ```shell
 yay -S kitty ranger mutt-wizard-git newsboat transmission-cli ncmpcpp mpd pulsemixer discord gotop htop weechat
+cd dotfiles
+mv -vi .config/* ~/.config/
+```
+Populate the urls file and run newsboat once pointing to the configuration file. This is necessary since newsboat uses ~/.newsboat by default and thus won't load our settings.
+```shell
+echo "https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" >> ~/.config/newsboat/urls
+newsboat -C ~/.config/newsboat/config
+```
+
+3. Install zsh
+```shell
+sudo pacman -S zsh zsh-completions
+zsh
+```
+Press q to exit out of <i>zsh-newuser-install</i>.
+```shell
+mv -vi .zshrc ~/.zshrc && mv -vi .aliases ~/.aliases
+chsh -s /bin/zsh
 ```
 
 ## Keybinds
