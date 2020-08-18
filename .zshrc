@@ -23,7 +23,8 @@ setopt correctall
 # Prompt
 autoload -Uz promptinit
 promptinit
-PROMPT='%(?.%F{magenta}√.%F{blue}?%?)%f %B%F{240}%1~%f%b %# '
+#PROMPT='%(?.%F{magenta}√.%F{blue}?%?)%f %B%F{240}%1~%f%b %# '
+PROMPT='%1~ %(?.%F{cyan}>%F{red}>%F{green}>.%F{magenta}?%?)%f '
 
 # Loads aliases
 source $HOME/.aliases
