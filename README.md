@@ -54,6 +54,7 @@ chsh -s /bin/zsh
 ```
 
 4. Configure neomutt
+
 If you don't have a GPG key pair, run ``gpg --full-gen-key`` first. Otherwise, continue as instructed below:
 ```shell
 pass init <yourgpgemail>
