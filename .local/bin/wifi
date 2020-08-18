@@ -2,13 +2,9 @@
 
 nmcli device wifi list
 
-echo SSID:
+read -p "SSID: " ssid
 
-read ssid
-
-echo Password:
-
-read -s password
+read -p "Password: " password
 
 clear
 

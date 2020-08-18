@@ -1,0 +1,24 @@
+#!/bin/bash
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+
+read -p "Sum 1: " sum1
+read -p "Sum 2: " sum2
+ 
+if [ "$sum1" == "$sum2" ]; then
+	echo -e "${GREEN}Checksums are equal" 
+else
+	printf "${RED}"
+	cat <<EOF
+  ____ 
+ /    \\
+| STOP | Checksums are NOT equal
+ \\ __ /
+   ||
+   ||
+   ||
+   ||
+ ~~~~~~~
+EOF
+fi

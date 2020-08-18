@@ -1,7 +1,7 @@
 #!/bin/sh
-#
+
 # ufetch-arch - tiny system info for arch
-# this file goes in /usr/bin/ufetch
+# put this file in your $PATH
 
 ## INFO
 
@@ -55,10 +55,10 @@ if [ -x "$(command -v tput)" ]; then
 fi
 
 # you can change these
-lc="${reset}${bold}${blue}"         # labels
-nc="${reset}${bold}${blue}"         # user and hostname
+lc="${reset}${bold}${cyan}"         # labels
+nc="${reset}${bold}${cyan}"         # user and hostname
 ic="${reset}"                       # info
-c0="${reset}${blue}"                # first color
+c0="${reset}${cyan}"                # first color
 
 ## OUTPUT
 

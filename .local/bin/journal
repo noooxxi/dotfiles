@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Script for keeping a digital journal
+
+printf "\n\n$(date "+%H:%M %Y-%m-%d")\n" >> ~/dox/log.txt
+echo >> ~/dox/log.txt && vim -c 'startinsert' + ~/dox/log.txt
