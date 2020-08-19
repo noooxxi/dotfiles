@@ -8,6 +8,15 @@ set laststatus=2
 set noshowmode
 let g:lightline = { 'colorscheme': 'buddha', }
 
+" Compiles on :w
+autocmd BufWritePost *.tex silent! execute "!pdflatex % >/dev/null 2>&1" | redraw!	
+
+" Removes logs on :q
+autocmd VimLeave *.tex !texclear %							
+
+" Opens pdf on Ctrl+P
+autocmd FileType tex map <C-p> :!zathura $(echo '%:r.pdf') &<CR><CR>						
+
 set relativenumber 									" Sets the beloved relative number + number combo
 set number 										" Sets the beloved relative number + number combo
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o		" Disables automatic comment insertion
