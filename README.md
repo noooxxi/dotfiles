@@ -116,7 +116,7 @@
 + <kbd>Super + v</kbd> - Select master window
 + <kbd>Super + Space</kbd> - Make selected window master window
 + <kbd>Super + Shift + Space</kbd> - Make selected window floating/stacked
-+ <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
++ <kbd>Super + Shift + α</kbd> - Send selected window to tag α where α∈ℕ and 9≥α≥1 
 + <kbd>Super + Shift + 0</kbd> - Sticky selected window
 
 #### Layout
@@ -129,7 +129,7 @@
 + <kbd>Super + U</kbd> - Monocle layout
 + <kbd>Super + i</kbd> - Centered master layout
 + <kbd>Super + I</kbd> - Centered floating master layout
-+ <kbd>Super + α</kbd> - Show tag α where α∈<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed"> and 9≥α≥1 
++ <kbd>Super + α</kbd> - Show tag α where α∈ℕ and 9≥α≥1 
 + <kbd>Super + 0</kbd> - Show all tags
 + <kbd>Super + a</kbd> - Toggle gaps
 + <kbd>Super + A</kbd> - Default gap size
