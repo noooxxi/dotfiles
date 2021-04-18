@@ -1,6 +1,30 @@
 #!/bin/bash
 
-echo -e 'power on\nconnect 74:9E:AF:A0:45:4C \nquit' | bluetoothctl
-echo -e 'power on\nconnect 74:9E:AF:A0:45:4C \nquit' | bluetoothctl
-sleep 1
-pamixer --list-sinks
+# Change this variable to the name of your device
+n="AirPods Pro"
+
+# Change this variable to the Bluetooth address of your device
+d="E8:85:4B:CB:D8:2B"
+
+x=$(pamixer --list-sinks | grep "$n")
+
+if [ -z "$x" ]; then
+
+	echo "Connecting..."
+
+	while [ -z "$x" ]; do
+
+		echo -e 'power on\nconnect '$d' \nquit' | bluetoothctl
+
+		x=$(pamixer --list-sinks | grep "$n")
+
+		sleep 1
+	done
+
+	echo "Success!"
+
+else
+
+	echo "This device is already connected!"
+
+fi
