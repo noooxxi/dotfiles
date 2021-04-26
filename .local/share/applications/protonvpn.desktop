@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=ProtonVPN
+Version=2.0.0
+Comment=The ProtonVPN desktop client
+Exec=protonvpn-gui
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Utility;GUI;Network;VPN
+Icon=/usr/share/applications/protonvpn_icon.png

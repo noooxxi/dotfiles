@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=ProtonCalendar
+Comment=The web client for ProtonCalendar
+Exec=/usr/bin/firefox calendar.protonmail.com
+Path=/usr/bin
+Terminal=false
+Type=Application
+Icon=/usr/share/applications/protoncalendar_icon.png
+

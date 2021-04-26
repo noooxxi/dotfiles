@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=ProtonMail
+Comment=The web client for ProtonMail
+Exec=/usr/bin/firefox beta.protonmail.com
+Path=/usr/bin
+Terminal=false
+Type=Application
+Icon=/usr/share/applications/protonmail_icon.png
