@@ -59,7 +59,7 @@ autocmd VimLeave *.tex !texclear %
 autocmd FileType tex map <C-p> :!zathura $(echo '%:r.pdf') &<CR><CR>
 
 " Opens bibliography on Ctrl+B
-map <C-b> :!kitty -e vim ~/Documents/flugsvamp.txt &<CR><CR>
+map <C-b> :!kitty -e vim ~/dox/school/bibliography.bib &<CR><CR>
 
 """"""""""SPLIT NAVIGATION""""""""""
 
